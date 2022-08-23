@@ -4,14 +4,13 @@ Avro_rc for HDFS
 
 ## Build & usage
 
-``commandline
+```commandline
 $ cd cmd/havrc
 
 $ go build
 
 $ ./havrc -h
 
-```commandline
 Get Avro HDFS files statistics
   usage: havrc [options] <url>
      <url> to a single file or directory to scan recursively, where
